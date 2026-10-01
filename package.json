@@ -1,0 +1,25 @@
+{
+  "name": "gas-hybrid-mcp",
+  "version": "1.0.0",
+  "description": "Dual-Auth Google Apps Script MCP Server: Official GCP OAuth2 + Unofficial Session Cookies & WebApp Bridge",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "gas-hybrid-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-apps-script",
+    "automation",
+    "google-drive"
+  ],
+  "author": "abdulaaly",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  }
+}
